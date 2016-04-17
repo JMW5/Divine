@@ -118,17 +118,17 @@
     </header>
 
     <div class="text-center" id="logo">
-      <img src="images/divine-logo.png" width="250px" height="250px">
+      <a href="index.html"><img src="images/divine-logo.png" width="250px" height="250px"></a>
       <h1>Divine Delectables</h1>
       <p>"Satisfying food for soul - That's sinfully delicous"</p>
     </div>
 
     <div id="header">
         <ul class="social-header-icons navigation">
-          <li><a href="">ABOUT</a></li>
+          <li><a href="about.html#about-section">ABOUT</a></li>
           <li><a href="service.html">SERVICES</a></li>
-          <li><a href="service.html">EVENTS</a></li>
-          <li><a href="">MENU'S</a></li>
+          <li><a href="#">EVENTS</a></li>
+          <li><a href="menu.html">MENU'S</a></li>
           <li><a href="index.html#contact">CONTACT</a></li>
         </ul>
     </div>
@@ -159,7 +159,7 @@
                 <div class="caption text-center">
                      <h3>Build Your Picnic</h3>
                      <p>Let Divine Delectables add a touch of class to your banquet, graduation parties, birthday celebrations, and all other needs.</p>
-                    <p align="center"><a href="#" class="btn btn-danger btn-block">Learn More</a>
+                    <p align="center"><a href="service.html#about-section" class="btn btn-danger btn-block">Learn More</a>
                     </p>
                 </div>
             </div>
@@ -170,7 +170,7 @@
                 <div class="caption text-center">
                     <h3>Tea Service</h3>
                     <p>We offer a peaceful, elegant experience and cater to your needs. Our tea parties are mobile so we can come to you.</p>
-                    <p align="center"><a href="" class="btn btn-danger btn-block">Learn More</a>
+                    <p align="center"><a href="service.html#tea" class="btn btn-danger btn-block">Learn More</a>
                     </p>
                 </div>
             </div>
@@ -181,7 +181,7 @@
                 <div class="caption text-center">
                      <h3>Wedding Delectables</h3>
                     <p>We have created specially designed packages tailored to give your wedding the Divine Delectables special touch.</p>
-                    <p align="center"><a href="http://bootsnipp.com/" class="btn btn-danger btn-block">Learn More</a>
+                    <p align="center"><a href="service.html#wedding" class="btn btn-danger btn-block">Learn More</a>
                     </p>
                 </div>
             </div>
@@ -205,22 +205,22 @@
       <div class="col-md-3 text-center" id="main-breakfast">
         <p>Breakfast</p>
         <img src="images/breakfast.png" class="img-responsive" width="150px" height="150px" style="margin: 0 auto; padding-bottom: 50px;">
-        <button class="btn btn-danger btn-block">View More</button>
+        <button class="btn btn-danger btn-block" data-toggle="modal" data-target="#myModal">View More</button>
       </div>
       <div class="col-md-3" id="main-apps">
         <p>Appetizers</p>
         <img src="images/appetizer.png" class="img-responsive" width="200px" height="200px" style="margin: 0 auto; padding-bottom: 55px;">
-        <button class="btn btn-danger btn-block">View More</button>
+        <button class="btn btn-danger btn-block" data-toggle="modal" data-target="#myModal1">View More</button>
       </div>
       <div class="col-md-3" id="main-buffet">
         <p>Buffet</p>
         <img src="images/buffet.png" class="img-responsive" width="200px" height="200px" style="margin: 0 auto; padding-bottom: 34px;">
-        <button class="btn btn-danger btn-block">View More</button>
+        <button class="btn btn-danger btn-block" data-toggle="modal" data-target="#myModal2">View More</button>
       </div>
       <div class="col-md-3" id="main-dessert">
         <p>Desserts</p>
         <img src="images/cupcake.png" class="img-responsive" width="200px" height="200px" style="margin: 0 auto">
-        <button class="btn btn-danger btn-block">View More</button><br><br>
+        <button class="btn btn-danger btn-block" data-toggle="modal" data-target="#myModal3">View More</button><br><br>
       </div>
     </div>
 
@@ -237,13 +237,13 @@
  
           <div class="row member-content">
             <div class="col-sm-3 col-sm-offset-1 member-thumb  fade-right in">
-              <img class="img-responsive img-center img-thumbnail img-circle" src="" alt="">
+              <img class="img-responsive img-center img-thumbnail img-circle" src="images/headshot.png" alt="">
               <h4>Paulette Blanks</h4>
               <p class="title">Owner</p>
             </div>
             <div class="col-sm-7">
               <div class="details">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p>Paulette Blanks is the founder of Divine Delectables  Baking & Catering Company, a full-service catering business based in Pittsburgh Pennsylvania.</p>
                 <ul class="social-content">
                   <li><a href="mailto:mail@example.com"><i class="fa fa-envelope fa-fw"></i></a></li>
                   <li><a href="#link"><i class="fa fa-twitter fa-fw"></i></a></li>
@@ -387,14 +387,395 @@
       </div>
     </div>
 
+    <!--BEGINNING OF BREAKFAST MODAL -->
+    <div class = "modal fade" id = "myModal" tabindex = "-1" role = "dialog" 
+       aria-labelledby = "myModalLabel" aria-hidden = "true">
+       
+       <div class = "modal-dialog">
+          <div class = "modal-content">
+             
+             <div class = "modal-header">
+                <button type = "button" class = "close" data-dismiss = "modal" aria-hidden = "true">
+                      &times;
+                </button>
+                <h4 class = "modal-title" id = "myModalLabel">Breakfast Menu</h4>
+             </div>
+             
+             <div class = "modal-body">
+                <div class="row">
+                                <div class="col-md-4">
+                                  <h4>Continential Breakfast</h4>
+                                  <p><u>$6.50 per person</u></p>
+                                  <br>
+                                  <ul>
+                                    <li>Coffee</li>
+                                    <li>Juice</li>
+                                    <li>Assorted Teas</li>
+                                    <li>Assorted Jellies & Cream Cheese</li>
+                                    <li>Bagels</li>
+                                    <li>Muffins</li>
+                                    <li>Donuts</li>
+                                    <br>
+                                    <li>Add Danish $1.00 per person</li>
+                                    <li>Add Fresh Fruit $1.50 extra per person</li>
+                                    <li>Add Assorted Yogurt $1.50 extra per person</li>
+                                  </ul>
+                                  <br>
+                                  <h4>Complete Breakfast</h4>
+                                  <p><u>$8.50 per person</u></p>
+                                  <ul>
+                                    <li>Scrambled Eggs</li>
+                                    <li>Home Fries</li>
+                                  </ul>
+                                  <br>
+                                  <p><u>Meats - (Choose 2)</u></p>
+                                  <ul>
+                                    <li>Sausage - Turkey or Pork</li>
+                                    <li>Bacon - Turkey or Pork</li>
+                                    <li>Ham - Turkey or Pork</li>
+                                    <br>
+                                    <li>Danish, Bagels or Muffins</li>
+                                    <br>
+                                    <h4><u>Beverages</u></h4>
+                                    <li>Coffee, Tea & Juice</li>
+                                    <br>
+                                    <li>Add Fresh Fruit $1.50 extra per person</li>
+                                    <br>
+                                    <li>Add Assorted Yogurt $1.50 extra per person</li>
+                                  </ul>
+                                </div>
+                                <div class="col-md-4">
+                                  <h4>Build your own Breakfast</h4>
+                                  <p><u>$12.00 per person</u></p>
+                                  <br>
+                                  <p>Includes: Toast or biscuts, Coffee, Tea, Juice - (choice of 2)  and condiments</p>
+                                  <br>
+                                  <h4><u>Meats Pick 2</u></h4>
+                                  <p>Sausage (Regular or Hot) - Pork, Turkey, Beef</p>
+                                  <p>Bacon - Turkey, Pork, Beef</p>
+                                  <p>Ham - Turkey Ham, Pork Ham</p>
+                                  <br>
+                                  <h4><u>Entrees Pick 2</u></h4>
+                                  <p>French Toast</p>
+                                  <p>Dollar size Pancakes</p>
+                                  <p>Waffles</p>
+                                  <p>Scrambled Eggs</p>
+                                  <p>Scrambled Eggs w/ cheese</p>
+                                  <br>
+                                  <h4><u>Side Pick 2</u></h4>
+                                  <p>Grits</p>
+                                  <p>Oatmeal</p>
+                                  <p>Home Fries</p>
+                                  <p>Fried Apples</p>
+                                  <p>Biscuits</p>
+                                  <p>Fresh Fruit Cup</p>
+                                  <p>Potato Pancakes</p>
+                                  <br>
+                                  <p>Extra items $1.50 per item per person</p>
+                                </div>
+                                <div class="col-md-4">
+                                  <h4><u>Specialty Items</u></h4><br><br>
+                                  <p>$2.00 per person with Continental, Complete or Build your own Breakfast Selections</p>
+                                  <br>
+                                  <p>Lemon Pancakes w/ Raspberry sauce</p>
+                                  <p>Mandarin Orange French Toast</p>
+                                  <p>Chocolate Waffles</p>
+                                  <p>Praline Waffles</p>
+                                  <p>Swiss, Chicken & Crab Crepes</p>
+                                  <p>Cheese Crepes w/ strawberry banana topping</p>
+                                  <p>Banana Bread Pudding</p>
+                                  <p>Strawberries and Cream Bread</p>
+                                  <p>Pudding</p>
+                                  <p>Apple Bread Pudding</p>
+                                  <p>Quiche - spinach, chicken, crab</p>
+                                  <br>
+                                  <h4>Breakfast Breads & Muffins</h4>
+                                  <p><u>$1.50 per person</u></p>
+                                  <br>
+                                  <p>Apple Cheddar Bread</p>
+                                  <p>Banana Nut Bread</p>
+                                  <p>Banana Macadamia Nut Bread</p>
+                                  <p>Lemon Blueberry Poppy seed Bread</p>
+                                  <p>Chocolate Chunk Banana Bread</p>
+                                  <p>Oatmeal Muffins</p>
+                                  <p>Pecan Peach Muffins</p>
+                                  <p>Cranberry Muffins</p>
+                                  <p>Banana Nut Muffins</p>
+                                  <p>Chocolate Chip Muffins</p>
+                                </div>
+                              </div>
+             </div>
+
+             <div class = "modal-footer">
+                <button type = "button" class = "btn btn-default" data-dismiss = "modal">Close</button>
+             </div>
+             
+          </div><!-- /.modal-content -->
+       </div><!-- /.modal-dialog -->
+      
+    </div><!-- /.modal -->
+
+    <!--END OF BREAKFAST MODAL -->
 
 
 
+    <!--BEGINNING OF APPERTIZER MODAL -->
+    <div class = "modal fade" id = "myModal1" tabindex = "-1" role = "dialog" 
+       aria-labelledby = "myModalLabel" aria-hidden = "true">
+       
+       <div class = "modal-dialog">
+          <div class = "modal-content">
+             
+             <div class = "modal-header">
+                <button type = "button" class = "close" data-dismiss = "modal" aria-hidden = "true">
+                      &times;
+                </button>
+                <h4 class = "modal-title" id = "myModalLabel">Appetizer Menu</h4>
+             </div>
+             
+             <div class = "modal-body">
+                <div class="row">
+                                <div class="col-md-12">
+                                  <h3>Hors d’ oeuvres/Appetizers</h3>
+                                  <br>
+                                  <h3><u>Cold</u></h3>
+                                  <br>
+                                  <p>Bacon Wrapped Shrimp</p>
+                                  <p>Smoked Salmon Stuffed Cherry Tomatoes</p>
+                                  <p>Vegetable Tray w/Spicy Dijon Dip</p>
+                                  <p>Salmon Rose Bites</p>
+                                  <p>Cucumber Crab Bites</p>
+                                  <p>Curried Chicken Puffs</p>
+                                  <p>Seafood Stuffed Shells</p>
+                                  <p>Cheese & Crackers w/Pepperoni or Turkey Sausage</p>
+                                  <p>Fresh Fruit Display w/Apricot Almond Dip</p>
+                                  <p>Smoked Salmon Stuffed Celery Stalks</p>
+                                  <p>Guacamole Dip w/ Tortilla Chips</p>
+                                  <p>Spinach Dip w/Assorted Crackers</p>
+                                  <p>Salmon Salad</p>
+                                  <p>Cucumber Canapés</p>
+                                  <p>Black Bean Dip w Tortilla Chips</p>
+                                  <p>Shrimp Cocktail w/Horseradish Sauce</p>
+                                  <p>Salmon Mousse w/Assorted Crackers</p>
+                                  <p>Sausage Antipasto Platter w/Pesto Spread</p>
+                                  <p>Salmon Canapés</p>
+                                  <p>Herbed Cheese Pinwheel Canapés</p>
+                                  <p>Cheese Stuffed Tomatoes</p>
+                                  <p>Deviled Egg</p>
+                                  <br>
+                                  <h4><u>Hot</u></h4>
+                                  <br>
+                                  <p>Buffalo Chicken Dip</p>
+                                  <p>Mushroom Caps Stuffed with choice of Crab meat, Sausage or Cheese</p>
+                                  <p>Bacon Wrapped Water Chestnuts</p>
+                                  <p>Bacon Wrapped Scallops</p>
+                                  <p>Meatballs – Sweet & Sour, BBQ or Swedish</p>
+                                  <p>Wing Dings – Honey Mustard, BBQ, Plain, Buffalo or Apricot</p>
+                                  <p>Stuffed Baked Shrimp</p>
+                                  <p>Stuffed New Potatoes</p>
+                                  <p>Parmesan Puffs w/ Marinara</p>
+                                  <p>Loaded Potato Skins w/ Sour Cream</p>
+                                  <p>Pearl Balls</p>
+                                  <p>Chicken Burrito Wraps</p>
+                                  <p>Skewered Beef Kishisashi</p>
+                                  <p>Ruben Rolls</p>
+                                  <p>Hot Crab meat Dip w/Assorted Crackers</p>
+                                  <p>Party Quiche Squares</p>
+                                  <p>Fried Cheese Wontons</p>
+                                  <p>Bacon Appetizer Crescents</p>
+                                  <p>Polenta Strips w/Creamy Salsa Spread</p>
+                                  <p>Miniature Ham Logs</p>
+                                  <p>Miniature Teriyaki Pork Kabobs</p>
+                                  <p>Spinach and Artichoke Dip</p>
+                                </div>
+                              </div>
+             </div>
+
+             <div class = "modal-footer">
+                <button type = "button" class = "btn btn-default" data-dismiss = "modal">Close</button>
+             </div>
+             
+          </div><!-- /.modal-content -->
+       </div><!-- /.modal-dialog -->
+      
+    </div><!-- /.modal -->
+
+    <!--END OF APPETIZER MODAL -->
 
 
+    <!--BEGINNING OF BUFFET MODAL -->
+    <div class = "modal fade" id = "myModal2" tabindex = "-1" role = "dialog" 
+       aria-labelledby = "myModalLabel" aria-hidden = "true">
+       
+       <div class = "modal-dialog">
+          <div class = "modal-content">
+             
+             <div class = "modal-header">
+                <button type = "button" class = "close" data-dismiss = "modal" aria-hidden = "true">
+                      &times;
+                </button>
+                <h4 class = "modal-title" id = "myModalLabel">Appetizer Menu</h4>
+             </div>
+             
+             <div class = "modal-body">
+                <div class="row">
+                                <div class="col-md-12">
+                                  <h3><u>Buffets</u></h3>
+                                  <br>
+                                  <p>All Buffets include: rolls and butter, Cookie Table (Weddings Only),Regular & Decaffeinated Coffee, Regular & Herbal Teas and Divine’s Own Signature Punch</p>
+                                  <br>
+                                  <p>(All Buffets of less than the minimum required number of guests require a $50 set up fee)</p>
+                                  <br>
+                                  <p>Build Your Own Buffet</p>
+                                  <p>(40 Person Minimum)</p>
+                                  <div class="row">
+                                    <div class="col-md-8"></div>
+                                    <div class="col-md-2">
+                                      <p><u>Lunch</u></p>
+                                    </div>
+                                    <div class="col-md-2">
+                                      <p><u>Dinner</u></p>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-md-8">
+                                      <p>2 Entrees, 2 Salads, 2 Vegetables/Starches, 2 Desserts</p>
+                                      <p>3 Entrees, 3 Salads, 3 Vegetables/Starches, 3 Desserts</p>
+                                      <p>4 Entrees, 4 Salads, 4 Vegetables/Starches, 4 Desserts</p>
+                                    </div>
+                                    <div class="col-md-2">
+                                      <p>$19.99</p>
+                                      <p>$21.99</p>
+                                      <p>$23.99</p>
+                                    </div>
+                                    <div class="col-md-2">
+                                      <p>$23.99</p>
+                                      <p>$25.99</p>
+                                      <p>$27.99</p>
+                                    </div>
+                                  </div>
+                                  <br>
+                                  <h3><u>Entrees</u></h3>
+                                  <br>
+                                  <p>Fried Chicken, Baked Chicken, BBQ Chicken, BBQ Ribs, Shrimp Primavera, Baked Penne Pasta w/Turkey Sausage, Stuffed Shells, Seafood Lasagna, Pecan Crusted Catfish w/White Cheddar Grits, Glazed Chicken Kabobs, Jerk Ribs, Rice Stuffed Flounder, Crab Shells, Spinach Lasagna, Baked Ham, Italian Style Orange Roughy, Roast Beef Au Jus, Bourbon Pecan Chicken, Apple Filled Chicken w/Pecan Cream Sauce, Beef Wellington, Fettuccine w/Salmon Sauce, Apricot Glazed Chicken</p>
+                                  <br>
+                                  <h3><u>Salads</u></h3>
+                                  <br>
+                                  <p>Tossed Green Salad, Macaroni Salad, Potato Salad, Cole Slaw, Pasta Salad (Chef’s Selection), Tuna Salad, Mandarin Orange Salad, Caesar Salad, Fruit Salad, Spinach Salad, Curried Chicken Salad, Broccoli Salad, Waldorf Salad</p>
+                                  <br>
+                                  <h3><u>Vegetables & Starches</u></h3>
+                                  <br>
+                                  <p>Whipped Potatoes, Parmesan Potatoes, Au Gratin Potatoes, Rice Pilaf, Green Bean Almondine, Medley of Fresh Vegetables, Garlic-Orange Spinach, Sautéed Swiss Chard, Garden Melody Rice, Lemon Rice, Parsley Potatoes, Honey Glazed Carrots, Home Style Candied Yams, Steamed Broccoli, Red Beans & Rice, Lemon Basil Pasta, Macaroni & Cheese, Green Beans w/Smoked Turkey, Cabbage, Caesar Scalloped Potatoes, Broccoli w/Lemon Almond Butter, Italian Blend Mixed Vegetables, Creamed Spinach, Grilled Vegetables</p>
+                                </div>
+                              </div>
+             </div>
 
-    
+             <div class = "modal-footer">
+                <button type = "button" class = "btn btn-default" data-dismiss = "modal">Close</button>
+             </div>
+             
+          </div><!-- /.modal-content -->
+       </div><!-- /.modal-dialog -->
+      
+    </div><!-- /.modal -->
 
+    <!--END OF APPETIZER MODAL -->
+
+    <!--BEGINNING OF DESSERT MODAL -->
+    <div class = "modal fade" id = "myModal3" tabindex = "-1" role = "dialog" 
+       aria-labelledby = "myModalLabel" aria-hidden = "true">
+       
+       <div class = "modal-dialog">
+          <div class = "modal-content">
+             
+             <div class = "modal-header">
+                <button type = "button" class = "close" data-dismiss = "modal" aria-hidden = "true">
+                      &times;
+                </button>
+                <h4 class = "modal-title" id = "myModalLabel">Dessert Menu</h4>
+             </div>
+             
+             <div class = "modal-body">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h3><u>Cheesecakes</u></h3>
+                    <p>7 up Lemon Cheesecake w/Strawberry Glaze</p>
+                    <p>Ambrosia Cheesecake</p>
+                    <p>Banana Cheesecake</p>
+                    <p>Cantaloupe Cheesecake Squares</p>
+                    <p>Caramel Cheesecake</p>
+                    <p>Key Lime Cheesecake</p>
+                    <p>Lemon Cheesecake</p>
+                    <p>Lemon Swirl Cheesecake</p>
+                    <p>New York Style Cheesecake</p>
+                    <p>Orange Honey Cheesecake</p>
+                    <p>Oreo Cheesecake</p>
+                    <p>Peach Cheesecake</p>
+                    <p>Raspberry Swirl Cheesecake</p>
+                    <p>Sweet Potato Cheesecake</p>
+                    <p>Toffee Crunch Carmel Cheesecake</p>
+                    <p>Vanilla Bean Cheesecake</p>
+                    <p>White Chocolate & Raspberry Cheese Cake</p>
+                    <p>White Chocolate Cheesecake</p>
+                    <p>White Chocolate Cheesecake w/White Chocolate Brandy</p>
+                    <p>White Russian Blackberry Cheesecake</p>
+                    <br>
+                    <h3><u>Cakes</u></h3>
+                    <p>Amaretto Cake</p>
+                    <p>Apple Cake</p>
+                    <p>Black Forest Cake</p>
+                    <p>Carrot Cake</p>
+                    <p>Chocolate Cake</p>
+                    <p>Chocolate Layer Cake w/Mocha glaze</p>
+                    <p>Double Chocolate Rum Cake</p>
+                    <p>Golden Rum Cake</p>
+                    <p>Lemon Apricot Cake</p>
+                    <p>Lemon Pound Cake</p>
+                    <p>Lemon Raspberry Cake w/Lemon Butter Cream</p>
+                    <p>Pineapple Upside Down Cake</p>
+                    <p>Pound Cake</p>
+                    <p>Pumpkin Cake</p>
+                    <p>Red Velvet Cake</p>
+                    <br>
+                    <h3><u>Pies</u></h3>
+                    <p>Apple Pie</p>
+                    <p>Apricot Pie</p>
+                    <p>Carmel Apple Pie</p>
+                    <p>Cherry Pie</p>
+                    <p>Key Lime Pie</p>
+                    <p>Sweet Potato Pie</p>
+                    <br>
+                    <h3><u>Cobblers</u></h3>
+                    <p>Apple Cobbler</p>
+                    <p>Chocolate Cobbler</p>
+                    <p>Peach Cobbler</p>
+                    <br>
+                    <h3><u>Puddings</u></h3>
+                    <p>Baked Stuffed Apples</p>
+                    <p>Banana Pudding</p>
+                    <p>Cinnamon Apple Burrito</p>
+                    <p>Grilled Pineapple slices w/Ginger Cream</p>
+                    <p>Rum Raisin Bread Pudding</p>
+                    <br>
+                    <h3><u>Lush</u></h3>
+                    <p>Lemon Lush</p>
+                    <p>Chocolate Lush</p>
+                    <p>Strawberry/Kiwi Lush</p>
+                    <p>Banana Lush</p>
+                    <p>French Vanilla Lush</p>
+                  </div>
+             </div>
+
+             <div class = "modal-footer">
+                <button type = "button" class = "btn btn-default" data-dismiss = "modal">Close</button>
+             </div>
+             
+          </div><!-- /.modal-content -->
+       </div><!-- /.modal-dialog -->
+      
+    </div><!-- /.modal -->
+
+    <!--END OF DESSERT MODAL -->
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
